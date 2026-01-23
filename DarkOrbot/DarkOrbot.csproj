@@ -1,0 +1,170 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <StartupObject>DarkOrbot.App</StartupObject>
+    <ApplicationIcon>darkSideIco.ico</ApplicationIcon>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Company>delemojo</Company>
+    <Authors>delemojo</Authors>
+    <AssemblyName>Darkside</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TargetFramework>net8.0-windows10.0.22000.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+    <DebugType>embedded</DebugType>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Optimize>True</Optimize>
+    <DebugType>embedded</DebugType>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebugType>embedded</DebugType>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="boxIco.png" />
+    <None Remove="boxIcoActv.png" />
+    <None Remove="browserIco.png" />
+    <None Remove="copysidIco.png" />
+    <None Remove="fullMapIco.png" />
+    <None Remove="ggIco.png" />
+    <None Remove="ggIcoActv.png" />
+    <None Remove="hideIco.png" />
+    <None Remove="Icons\boxIcoGlow.png" />
+    <None Remove="Icons\closeIco.png" />
+    <None Remove="Icons\coffeeIco.png" />
+    <None Remove="Icons\downIco.png" />
+    <None Remove="Icons\exportIco.png" />
+    <None Remove="Icons\ggIcoGlow.png" />
+    <None Remove="Icons\importIco.png" />
+    <None Remove="Icons\leftIco.png" />
+    <None Remove="Icons\loginIco.png" />
+    <None Remove="Icons\loginIcoGlow.png" />
+    <None Remove="Icons\moveToIcoActv.png" />
+    <None Remove="Icons\npcIcoGlow.png" />
+    <None Remove="Icons\passiveIco.png" />
+    <None Remove="Icons\passiveIcoActv.png" />
+    <None Remove="Icons\passiveIcoGlow.png" />
+    <None Remove="Icons\playIcoGlow.png" />
+    <None Remove="Icons\rightIco.png" />
+    <None Remove="Icons\statisticsIco.png" />
+    <None Remove="Icons\upIco.png" />
+    <None Remove="logIco.png" />
+    <None Remove="logoutIco.png" />
+    <None Remove="npcIco.png" />
+    <None Remove="npcIcoActv.png" />
+    <None Remove="pauseIco.png" />
+    <None Remove="playerMapIco.png" />
+    <None Remove="playIco.png" />
+    <None Remove="removeIco.png" />
+    <None Remove="settingsIco.png" />
+    <None Remove="showIco.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="darkSideIco.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\closeIco.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeviceId" Version="6.9.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DarkOrbitProtoLib\DarkOrbitProtoLib.csproj" />
+    <ProjectReference Include="..\DarksideApi\DarksideApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\boxIcoGlow.png" />
+    <Resource Include="Icons\coffeeIco.png" />
+    <Resource Include="Icons\copysidIco.png" />
+    <Resource Include="Icons\boxIco.png" />
+    <Resource Include="Icons\boxIcoActv.png" />
+    <Resource Include="Icons\browserIco.png" />
+    <Resource Include="Icons\downIco.png" />
+    <Resource Include="Icons\exportIco.png" />
+    <Resource Include="Icons\fullMapIco.png" />
+    <Resource Include="Icons\ggIco.png" />
+    <Resource Include="Icons\ggIcoActv.png" />
+    <Resource Include="Icons\ggIcoGlow.png" />
+    <Resource Include="Icons\hideIco.png" />
+    <Resource Include="Icons\importIco.png" />
+    <Resource Include="Icons\leftIco.png" />
+    <Resource Include="Icons\logIco.png" />
+    <Resource Include="Icons\loginIco.png" />
+    <Resource Include="Icons\loginIcoGlow.png" />
+    <Resource Include="Icons\moveToIcoActv.png" />
+    <Resource Include="Icons\npcIco.png" />
+    <Resource Include="Icons\npcIcoActv.png" />
+    <Resource Include="Icons\npcIcoGlow.png" />
+    <Resource Include="Icons\passiveIco.png" />
+    <Resource Include="Icons\passiveIcoActv.png" />
+    <Resource Include="Icons\passiveIcoGlow.png" />
+    <Resource Include="Icons\pauseIco.png" />
+    <Resource Include="Icons\playerMapIco.png" />
+    <Resource Include="Icons\playIco.png" />
+    <Resource Include="Icons\playIcoGlow.png" />
+    <Resource Include="Icons\rightIco.png" />
+    <Resource Include="Icons\settingsIco.png" />
+    <Resource Include="Icons\showIco.png" />
+    <Resource Include="Icons\removeIco.png" />
+    <Resource Include="Icons\logoutIco.png" />
+    <Resource Include="Icons\statisticsIco.png" />
+    <Resource Include="Icons\upIco.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Util\Collections\" />
+  </ItemGroup>
+
+</Project>

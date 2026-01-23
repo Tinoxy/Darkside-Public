@@ -1,0 +1,68 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkOrbot", "DarkOrbot\DarkOrbot.csproj", "{2746D628-7C9E-422E-AAE2-EFB87254195B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarksideApi", "DarksideApi\DarksideApi.csproj", "{A348B6B2-42F4-4593-985B-3E900DF86B30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarksideUpdater", "DarksideUpdater\DarksideUpdater.csproj", "{D77A1008-E954-4E52-999B-051EBC6D2F78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PHP", "PHP", "{077D6C38-A16E-4D3B-B66F-C3840DE1904B}"
+	ProjectSection(SolutionItems) = preProject
+		..\api.php = ..\api.php
+		..\buy.php = ..\buy.php
+		..\getApi.php = ..\getApi.php
+		..\paymentInfo.php = ..\paymentInfo.php
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkOrbitProtoLib", "DarkOrbitProtoLib\DarkOrbitProtoLib.csproj", "{15EAC914-F99B-4661-ADBA-39396D2FA8B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Debug|x64.Build.0 = Debug|Any CPU
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Release|x64.ActiveCfg = Release|x64
+		{2746D628-7C9E-422E-AAE2-EFB87254195B}.Release|x64.Build.0 = Release|x64
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Debug|x64.Build.0 = Debug|Any CPU
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Release|x64.ActiveCfg = Release|Any CPU
+		{A348B6B2-42F4-4593-985B-3E900DF86B30}.Release|x64.Build.0 = Release|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Debug|x64.Build.0 = Debug|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Release|x64.ActiveCfg = Release|Any CPU
+		{D77A1008-E954-4E52-999B-051EBC6D2F78}.Release|x64.Build.0 = Release|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Debug|x64.Build.0 = Debug|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Release|x64.ActiveCfg = Release|Any CPU
+		{15EAC914-F99B-4661-ADBA-39396D2FA8B3}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DFA9B68-0D2A-498C-BD6E-F2AE426B2A19}
+	EndGlobalSection
+EndGlobal

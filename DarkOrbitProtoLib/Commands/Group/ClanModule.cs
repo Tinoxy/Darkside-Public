@@ -1,0 +1,29 @@
+﻿namespace DarksideApi.DarkOrbit.Commands.Group
+{
+    public class ClanModule : PlayerAttributeModule   //1094
+    {
+        public new const short Id = -959;
+        public int clanId;
+        public string clanTag;
+
+        public ClanModule()
+        {
+            this.clanTag = string.Empty;
+        }
+
+        public override void Read(ByteArray reader)
+        {
+            reader.ReadShort(); //471 -> Empty
+            base.Read(reader);
+
+            this.clanTag = reader.ReadUTF();
+            this.clanId = reader.ReadInt();
+            this.clanId = this.clanId >>> 9 | this.clanId << 23;
+        }
+
+        public override byte[] Write()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

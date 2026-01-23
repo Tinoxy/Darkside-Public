@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DarkOrbot": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    }
+  }
+}
