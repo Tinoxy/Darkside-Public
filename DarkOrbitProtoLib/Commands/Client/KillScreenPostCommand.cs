@@ -27,7 +27,6 @@
             {
                 this.cause.Read(reader);
             }
-            var i = 0;
             int max = reader.ReadByte();
         }
 

@@ -29,7 +29,20 @@
 
         public override byte[] Write()
         {
-            throw new NotImplementedException();
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteInt(this.nanoShield >>> 26 | this.nanoShield << 6);
+            // TODO: konnte nicht automatisch konvertieren: this.nanoShield = this.nanoShield << 26 | this.nanoShield >>> 6;
+            this.@byte.WriteInt(this.nanoShieldMax >>> 24 | this.nanoShieldMax << 8);
+            // TODO: konnte nicht automatisch konvertieren: this.nanoShieldMax = this.nanoShieldMax << 24 | this.nanoShieldMax >>> 8;
+            this.@byte.WriteInt(this.shieldMax >>> 14 | this.shieldMax << 18);
+            // TODO: konnte nicht automatisch konvertieren: this.shieldMax = this.shieldMax << 14 | this.shieldMax >>> 18;
+            // TODO: konnte nicht automatisch konvertieren: this.hpMax = (long)reader.ReadDouble();
+            // TODO: konnte nicht automatisch konvertieren: this.hp = (long)reader.ReadDouble();
+            this.@byte.WriteInt(this.shield >>> 16 | this.shield << 16);
+            // TODO: konnte nicht automatisch konvertieren: this.shield = this.shield << 16 | this.shield >>> 16;
+            return this.@byte.ToArray();
         }
     }
 }

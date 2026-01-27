@@ -23,5 +23,16 @@
         {
             return base.ToString() + ", amount: " + this.amount;
         }
+
+        public override byte[] Write()
+        {
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteInt(this.amount >>> 5 | this.amount << 27);
+            // TODO: konnte nicht automatisch konvertieren: this.amount = this.amount >>> 5 | this.amount << 27;
+            return this.@byte.ToArray();
+        }
     }
+
 }

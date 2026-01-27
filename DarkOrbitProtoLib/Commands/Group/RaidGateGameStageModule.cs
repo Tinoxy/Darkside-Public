@@ -18,7 +18,13 @@
 
         public override byte[] Write()
         {
-            throw new NotImplementedException();
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteInt(this.gameStage >>> 24 | this.gameStage << 8);
+            // TODO: konnte nicht automatisch konvertieren: this.gameStage = this.gameStage << 24 | this.gameStage >>> 8;
+            this.@byte.WriteBool(this.isInGate);
+            return this.@byte.ToArray();
         }
     }
 }

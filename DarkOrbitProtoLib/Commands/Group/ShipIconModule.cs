@@ -15,7 +15,11 @@
 
         public override byte[] Write()
         {
-            throw new NotImplementedException();
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteShort((short)this.shipIcon);
+            return this.@byte.ToArray();
         }
     }
 }

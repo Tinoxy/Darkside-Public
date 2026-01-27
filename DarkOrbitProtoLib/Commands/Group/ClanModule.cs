@@ -23,7 +23,13 @@
 
         public override byte[] Write()
         {
-            throw new NotImplementedException();
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteUTF(this.clanTag);
+            this.@byte.WriteInt(this.clanId >>> 9 | this.clanId << 23);
+            // TODO: konnte nicht automatisch konvertieren: this.clanId = this.clanId >>> 9 | this.clanId << 23;
+            return this.@byte.ToArray();
         }
     }
 }

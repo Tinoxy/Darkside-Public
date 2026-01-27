@@ -22,7 +22,16 @@
 
         public override byte[] Write()
         {
-            throw new NotImplementedException();
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteInt(this.y >>> 11 | this.y << 21);
+            // TODO: konnte nicht automatisch konvertieren: this.y = this.y << 11 | this.y >>> 21;
+            this.@byte.WriteInt(this.mapId >>> 5 | this.mapId << 27);
+            // TODO: konnte nicht automatisch konvertieren: this.mapId = this.mapId << 5 | this.mapId >>> 27;
+            this.@byte.WriteInt(this.x >>> 13 | this.x << 19);
+            // TODO: konnte nicht automatisch konvertieren: this.x = this.x << 13 | this.x >>> 19;
+            return this.@byte.ToArray();
         }
     }
 }
