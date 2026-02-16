@@ -22,5 +22,14 @@
         {
             return base.ToString() + ", percentage: " + this.percentage;
         }
+
+        public override byte[] Write()
+        {
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteFloat(this.percentage);
+            return this.@byte.ToArray();
+        }
     }
 }

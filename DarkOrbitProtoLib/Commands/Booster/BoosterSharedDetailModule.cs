@@ -23,5 +23,15 @@
         {
             return base.ToString() + ", numberOfBoosters: " + this.numberOfBoosters;
         }
+
+        public override byte[] Write()
+        {
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteInt(this.numberOfBoosters >>> 30 | this.numberOfBoosters << 2);
+            // TODO: konnte nicht automatisch konvertieren: this.numberOfBoosters = this.numberOfBoosters >>> 30 | this.numberOfBoosters << 2;
+            return this.@byte.ToArray();
+        }
     }
 }

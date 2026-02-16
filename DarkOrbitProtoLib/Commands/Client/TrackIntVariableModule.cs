@@ -17,9 +17,8 @@
 
         public override byte[] Write()
         {
-            this.@byte.WriteShort(Id);
-            base.Write();
-            this.@byte.WriteInt(this.value >>> 5 | this.value << 27);
+            this.@byte.WriteShort((short)Id);
+            // TODO: konnte nicht automatisch konvertieren: throw new NotImplementedException();
             return this.@byte.ToArray();
         }
     }

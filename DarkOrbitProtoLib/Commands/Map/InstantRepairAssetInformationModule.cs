@@ -16,7 +16,12 @@
 
         public override byte[] Write()
         {
-            throw new NotImplementedException();
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteInt(this.instantRepairCount >>> 13 | this.instantRepairCount << 19);
+            // TODO: konnte nicht automatisch konvertieren: this.instantRepairCount = this.instantRepairCount << 13 | this.instantRepairCount >>> 19;
+            return this.@byte.ToArray();
         }
     }
 }

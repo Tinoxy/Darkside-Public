@@ -685,13 +685,10 @@ namespace DarksideApi.Util
             client.DefaultRequestHeaders.UserAgent.ParseAdd($"BigpointClient/{Api.BigpointClientVersion}");
             client.Timeout = TimeSpan.FromSeconds(120);
             client.DefaultRequestHeaders.Referrer = new Uri($"https://{serverTag}.darkorbit.com/spacemap");
-
             using var request = new HttpRequestMessage(HttpMethod.Get, $"https://{serverTag}.darkorbit.com/spacemap/xml/maps.php");
             using HttpResponseMessage response = client.Send(request);
-
             using StreamReader streamReader = new(response.Content.ReadAsStream());
             var data = streamReader.ReadToEnd();
-
             var maps = data.Split("<map id=");
             Dictionary<int, IPEndPoint> ipAdresses = [];
 
@@ -706,6 +703,7 @@ namespace DarksideApi.Util
                 {
                     continue;
                 }
+
                 if (ipAsString.Contains(':'))
                 {
                     var fullIpArray = ipAsString.Split(':');
@@ -713,17 +711,46 @@ namespace DarksideApi.Util
                     port = int.Parse(fullIpArray[1]);
                 }
 
+                IPAddress resolvedIp;
+
+                // Prüfen ob es bereits eine IP ist
+                if (IPAddress.TryParse(ipAsString, out resolvedIp))
+                {
+                    // Ist bereits eine IP-Adresse
+                }
+                else
+                {
+                    // Domain auflösen
+                    try
+                    {
+                        var hostEntry = Dns.GetHostEntry(ipAsString);
+                        resolvedIp = hostEntry.AddressList.FirstOrDefault(ip => ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork);
+
+                        if (resolvedIp == null)
+                        {
+                            Debug.WriteLine($"Keine IPv4-Adresse für {ipAsString} gefunden");
+                            continue;
+                        }
+
+                        Debug.WriteLine($"Resolved {ipAsString} zu {resolvedIp}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.WriteLine($"Fehler beim Auflösen von {ipAsString}: {ex.Message}");
+                        continue;
+                    }
+                }
+
                 if (ipAdresses.ContainsKey(mapId))
                 {
-                    ipAdresses[mapId] = new(IPAddress.Parse(ipAsString), port);
+                    ipAdresses[mapId] = new IPEndPoint(resolvedIp, port);
                     continue;
                 }
-                ipAdresses.Add(mapId, new(IPAddress.Parse(ipAsString), port));
-                //api.Logging.WriteLineIf(App.IsDebugger, "Added " + ipAsString + " for Map " + mapId);
+
+                ipAdresses.Add(mapId, new IPEndPoint(resolvedIp, port));
             }
 
             Debug.WriteLine("IPs Loaded!");
-
             return ipAdresses;
         }
 

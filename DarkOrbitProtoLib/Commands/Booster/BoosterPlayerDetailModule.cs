@@ -23,5 +23,16 @@
         {
             return base.ToString() + ", secondsLeft: " + this.secondsLeft;
         }
+
+        public override byte[] Write()
+        {
+            this.@byte.WriteShort((short)Id);
+            this.@byte.WriteShort((short)0);
+            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
+            this.@byte.WriteInt(this.secondsLeft >>> 22 | this.secondsLeft << 10);
+            // TODO: konnte nicht automatisch konvertieren: this.secondsLeft = this.secondsLeft >>> 22 | this.secondsLeft << 10;
+            return this.@byte.ToArray();
+        }
     }
+
 }
