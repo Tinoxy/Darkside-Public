@@ -2,7 +2,7 @@
 {
     public class RemoveCollectableCommand : Command //RemoveCollectableCommand
     {
-        public new const short Id = 25824;
+        public new const short Id = -21530;
         public string hash;
         public bool collected;  //name_138
 

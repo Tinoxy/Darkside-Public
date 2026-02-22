@@ -4,7 +4,7 @@ namespace DarksideApi.DarkOrbit.Commands.MessageStack
 {
     public class BaseStackCommand : Command
     {
-        public new const short Id = -6196;
+        public new const short Id = 27145;
         public string stringBasekey;
         public BaseKey enumBaseKey;
         public List<ArgStackCommand> argList;

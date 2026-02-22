@@ -2,7 +2,7 @@
 {
     public class QuestAcceptRequest : Command   //class_1034
     {
-        public new const short Id = -22026;
+        public new const short Id = 2035;
         public QuestAcceptabilityStatusModule acceptabilityModule;
         public int questId;
 

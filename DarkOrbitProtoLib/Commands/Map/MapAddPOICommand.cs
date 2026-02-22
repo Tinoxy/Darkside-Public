@@ -2,7 +2,7 @@
 {
     public class MapAddPOICommand : Command   //MappAddPoiCommand
     {
-        public new const short Id = 13096;
+        public new const short Id = 25558;
         public int design;
         public int shape;
         public bool inverted;   //name_186

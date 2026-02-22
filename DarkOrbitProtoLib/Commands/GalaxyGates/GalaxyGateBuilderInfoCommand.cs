@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderInfoCommand : Command   //GalaxyGateBuilderInfoCommand
     {
-        public new const short Id = -8501;
+        public new const short Id = 526;
         public bool galaxyGateDay;
         public List<GalaxyGateBuilderGateModule> gates;
         public int energyCost;

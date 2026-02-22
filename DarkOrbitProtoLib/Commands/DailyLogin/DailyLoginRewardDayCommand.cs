@@ -2,7 +2,7 @@
 {
     public class DailyLoginRewardDayCommand : Command
     {
-        public new const int Id = 28670;
+        public new const int Id = -28066;
         public int nextMonthSeconds;
         public bool end;
         public int day;

@@ -2,7 +2,7 @@
 {
     public class InventoryItemUpdatedCommand : Command   //InventoryItemUpdateCommand
     {
-        public new const short Id = -17578;
+        public new const short Id = -28186;
         public InventoryItemModule item;
 
         public InventoryItemUpdatedCommand()

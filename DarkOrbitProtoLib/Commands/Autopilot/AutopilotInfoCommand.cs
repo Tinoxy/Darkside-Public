@@ -2,7 +2,7 @@
 {
     public class AutopilotInfoCommand : Command
     {
-        public new const short Id = 11873;
+        public new const short Id = 1392;
         public int laserRange;
         public string autoPilotInfos;
         public double remainingSeconds;

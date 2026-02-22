@@ -2,7 +2,7 @@
 {
     public class ShopItemCommand : Command
     {
-        public new const short Id = -30521;
+        public new const short Id = -10112;
         public long saleRemainingTime;
         public int maxlevel;
         public bool buyMore;

@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderProbabilityModule : Command    //819
     {
-        public new const short Id = 24264;
+        public new const short Id = -2325;
         public int category;
         public int percentage;
 

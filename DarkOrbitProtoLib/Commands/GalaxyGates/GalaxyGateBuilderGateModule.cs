@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderGateModule : Command   //GGBuilderGateModule
     {
-        public new const short Id = 17995;
+        public new const short Id = -5404;
         public int multiplier;
         public List<GalaxyGateBuilderMultiGateProgressModule> multiGateProgress;
         public List<GalaxyGateBuilderItemModule> boosts;

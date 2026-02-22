@@ -2,7 +2,7 @@
 {
     public class SlotInfoCommand : Command  //1944
     {
-        public new const short Id = 11342;
+        public new const short Id = -3973;
         public string menuItemId;
         public int slotId = 0;
 

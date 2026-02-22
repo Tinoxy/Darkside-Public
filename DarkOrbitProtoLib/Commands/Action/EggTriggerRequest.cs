@@ -2,7 +2,7 @@
 {
     public class EggTriggerRequest : Command
     {
-        public new const short Id = -29989;
+        public new const short Id = -30853;
         public EggTriggerType eggTriggerType;
 
         public EggTriggerRequest(EggTriggerType eggTriggerType)

@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderBuyLifeRequest : Command    //820
     {
-        public new const short Id = 13912;
+        public new const short Id = -32288;
         public byte gateId;
 
         public GalaxyGateBuilderBuyLifeRequest(byte gateId)

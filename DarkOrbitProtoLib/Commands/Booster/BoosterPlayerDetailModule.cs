@@ -2,7 +2,7 @@
 {
     public class BoosterPlayerDetailModule : BoosterDetailModule
     {
-        public new const short Id = 7686;
+        public new const short Id = -10965;
         public int secondsLeft;
 
         public BoosterPlayerDetailModule()
@@ -28,9 +28,7 @@
         {
             this.@byte.WriteShort((short)Id);
             this.@byte.WriteShort((short)0);
-            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
             this.@byte.WriteInt(this.secondsLeft >>> 22 | this.secondsLeft << 10);
-            // TODO: konnte nicht automatisch konvertieren: this.secondsLeft = this.secondsLeft >>> 22 | this.secondsLeft << 10;
             return this.@byte.ToArray();
         }
     }

@@ -2,7 +2,7 @@
 {
     public class InventoryItemModule : Command   //InventoryItemModule
     {
-        public new const short Id = -13778;
+        public new const short Id = -12971;
         public string lootId;
         public List<InventoryItemAttributeModule> inventoryItemAttributes;
         public double amount;

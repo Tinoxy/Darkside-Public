@@ -2,7 +2,7 @@
 {
     public class BoosterDetailModule : Command  //BoosterDetailModule
     {
-        public new const short Id = 10224;
+        public new const short Id = 9868;
         public string lootId;
 
         public BoosterDetailModule()

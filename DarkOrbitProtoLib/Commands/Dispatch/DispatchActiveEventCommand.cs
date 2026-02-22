@@ -2,7 +2,7 @@
 {
     public class DispatchActiveEventCommand : Command
     {
-        public new const short Id = -22936;
+        public new const short Id = -26731;
         public EventType eventType;
 
         public override void Read(ByteArray reader)

@@ -2,7 +2,7 @@
 {
     public class BoosterBattlestationDetailModule : BoosterDetailModule
     {
-        public new const short Id = -28412;
+        public new const short Id = -7923;
         public float percentage;
 
         public BoosterBattlestationDetailModule()
@@ -27,7 +27,6 @@
         {
             this.@byte.WriteShort((short)Id);
             this.@byte.WriteShort((short)0);
-            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
             this.@byte.WriteFloat(this.percentage);
             return this.@byte.ToArray();
         }

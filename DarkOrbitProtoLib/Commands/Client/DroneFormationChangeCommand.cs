@@ -14,9 +14,9 @@
         public override void Read(ByteArray reader)
         {
             this.userId = reader.ReadInt();
-            this.userId = this.userId >>> 15 % 32 | this.userId << 32 - 15 % 32;
+            this.userId = this.userId >>> 15 % 32 | this.userId << 17 % 32;
             this.selectedFormation = reader.ReadInt();
-            this.selectedFormation = this.selectedFormation << 8 % 32 | this.selectedFormation >>> 32 - 8 % 32;
+            this.selectedFormation = this.selectedFormation << 8 % 32 | this.selectedFormation >>> 24 % 32;
         }
 
         public override byte[] Write()

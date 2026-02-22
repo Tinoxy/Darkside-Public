@@ -2,7 +2,7 @@
 {
     public class MenuCategoryInitializationCommand : Command    //2092
     {
-        public new const short Id = -6128;
+        public new const short Id = -28187;
         public string categoryId;
         public List<MenuItemInitializationCommand> menuItems;
 

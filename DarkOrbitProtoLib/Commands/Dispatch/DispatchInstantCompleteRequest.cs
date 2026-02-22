@@ -2,7 +2,7 @@
 {
     public class DispatchInstantCompleteRequest : Command    //DipatchInstantCompleteRequest
     {
-        public new const short Id = 23232;
+        public new const short Id = 20585;
         public short slotId;
 
         public DispatchInstantCompleteRequest(short slotId)

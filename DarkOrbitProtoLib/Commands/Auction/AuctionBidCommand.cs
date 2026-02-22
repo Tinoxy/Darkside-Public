@@ -4,7 +4,7 @@ namespace DarksideApi.DarkOrbit.Commands.Auction
 {
     public class AuctionBidCommand : Command
     {
-        public new const short Id = -9664;
+        public new const short Id = 814;
         public AuctionDataCommand myBid;
         public BaseStackCommand stack;
         public AuctionDataCommand curBid;

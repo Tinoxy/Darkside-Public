@@ -2,7 +2,7 @@
 {
     public class ExpeditionStartInstanceCommand : Command
     {
-        public new const short Id = -5748;
+        public new const short Id = 6526;
         public int seconds;
 
         public override void Read(ByteArray reader)

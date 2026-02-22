@@ -2,7 +2,7 @@
 {
     public class MenuItemStatusCommand : Command    //842
     {
-        public new const short Id = -17500;
+        public new const short Id = 8024;
         public bool activatable;
         public bool visible;
         public string menuItemId;

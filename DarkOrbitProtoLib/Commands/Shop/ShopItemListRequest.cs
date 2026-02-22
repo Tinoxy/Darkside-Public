@@ -2,7 +2,7 @@
 {
     public class ShopItemListRequest : Command
     {
-        public new const short Id = -19679;
+        public new const short Id = -19420;
         public string category;
 
         public ShopItemListRequest(string category)

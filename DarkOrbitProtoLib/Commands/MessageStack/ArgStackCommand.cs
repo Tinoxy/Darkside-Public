@@ -4,7 +4,7 @@ namespace DarksideApi.DarkOrbit.Commands.MessageStack
 {
     public class ArgStackCommand : Command
     {
-        public new const short Id = 918;
+        public new const short Id = 29336;
         public ArgKey key;
         public int type;
         public string value;

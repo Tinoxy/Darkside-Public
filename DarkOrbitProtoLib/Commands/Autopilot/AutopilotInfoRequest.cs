@@ -2,7 +2,7 @@
 {
     public class AutopilotInfoRequest : Command
     {
-        public new const short Id = 8547;
+        public new const short Id = -1887;
 
         public AutopilotInfoRequest()
         {

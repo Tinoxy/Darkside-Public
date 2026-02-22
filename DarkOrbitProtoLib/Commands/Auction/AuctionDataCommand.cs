@@ -2,7 +2,7 @@
 {
     public class AuctionDataCommand : Command
     {
-        public new const short Id = 1878;
+        public new const short Id = -13339;
         public bool instantBuy;
         public long highestBid;
         public int amount;

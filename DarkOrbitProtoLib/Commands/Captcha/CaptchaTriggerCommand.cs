@@ -2,7 +2,7 @@
 {
     public class CaptchaTriggerCommand : Command //CaptchaTriggerCommand
     {
-        public new const short Id = 29831;
+        public new const short Id = -7437;
         public int captchaParam;  //var_5736
         public int captchaTimer;    //var_4771
         public int x;       //var_2089

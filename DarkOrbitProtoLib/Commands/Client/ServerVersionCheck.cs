@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Client
 {
-    public class ServerVersionCheck : Command   //class_1619
+    public class ServerVersionCheck : Command   //VersionCommand
     {
         public new const short Id = 667;
         public string version;

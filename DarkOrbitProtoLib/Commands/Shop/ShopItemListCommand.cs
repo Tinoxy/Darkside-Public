@@ -2,7 +2,7 @@
 {
     public class ShopItemListCommand : Command
     {
-        public new const short Id = 32059;
+        public new const short Id = -8316;
         public List<ShopLabelPrompt> promptList;
         public string currentShipLootId;
         public string category;

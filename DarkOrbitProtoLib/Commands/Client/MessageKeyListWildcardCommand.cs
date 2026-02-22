@@ -2,7 +2,7 @@
 {
     public class MessageKeyListWildcardCommand : Command    //MessageKeyListWildcardCommand 399
     {
-        public new const short Id = 10841;
+        public new const short Id = 30200;
         public List<MessageKeyListWildcardModule> commands;
 
         public MessageKeyListWildcardCommand()

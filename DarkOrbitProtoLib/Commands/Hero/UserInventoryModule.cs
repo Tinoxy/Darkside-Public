@@ -2,7 +2,7 @@
 {
     public class UserInventoryModule : Command //UserInventoryModule
     {
-        public new const short Id = -8211;
+        public new const short Id = 5868;
         public int activeRebateSubDiscount;
         public List<InventoryItemModule> inventoryItemModules;
         public int activePremiumDiscount;

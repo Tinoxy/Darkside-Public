@@ -2,7 +2,7 @@
 {
     public class InvitationModeModule : Command
     {
-        public new const short Id = 17008;
+        public new const short Id = 9990;
         public int mode;
 
         public override void Read(ByteArray reader)

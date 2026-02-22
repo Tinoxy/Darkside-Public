@@ -2,7 +2,7 @@
 {
     public class EternalBlacklightSkillPointInfoCommand : Command    //class_909
     {
-        public new const short Id = 11351;
+        public new const short Id = 25778;
         public int points;  //var_5886
 
         public override void Read(ByteArray reader)

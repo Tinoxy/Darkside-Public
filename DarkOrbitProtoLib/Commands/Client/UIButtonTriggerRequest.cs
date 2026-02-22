@@ -2,7 +2,7 @@
 {
     public class UIButtonTriggerRequest : Command  //UIButtonTriggerRequest
     {
-        public new const short Id = -13772;
+        public new const short Id = 9603;
         public string itemId;
 
         public UIButtonTriggerRequest(string itemId)

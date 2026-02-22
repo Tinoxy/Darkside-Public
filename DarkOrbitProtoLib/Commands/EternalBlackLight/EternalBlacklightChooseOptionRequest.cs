@@ -2,7 +2,7 @@
 {
     public class EternalBlacklightChooseOptionRequest : Command   //EBGChooseOptionUnityRequest
     {
-        public new const short Id = -6993;
+        public new const short Id = 3331;
         public int selectedBooster; //4037
 
         public EternalBlacklightChooseOptionRequest(int selectedBooster)

@@ -2,7 +2,7 @@
 {
     public class DiminishingQuestInitializationCommand : Command    //class_1477
     {
-        public new const short Id = -31791;
+        public new const short Id = 602;
         public double timeToQuestEnd;
         public QuestAcceptabilityStatusModule acceptabilityStatus;
         public QuestDefinitionModule quest;

@@ -2,7 +2,7 @@
 {
     public class TargetModule : PlayerAttributeModule
     {
-        public new const short Id = -31362;
+        public new const short Id = -28833;
         public string name;
         public HealthModule health;
         public ShipIconModule shipType;

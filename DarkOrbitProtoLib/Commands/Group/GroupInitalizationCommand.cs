@@ -1,8 +1,8 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Group
 {
-    public class GroupInitalizationCommand : Command
+    public class GroupInitalizationCommand : Command //GroupInitializationCommand
     {
-        public new const short Id = 25151;
+        public new const short Id = 11313;
         public int leaderId;
         public int maxSize;
         public int id;

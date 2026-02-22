@@ -2,7 +2,7 @@
 {
     public class EnergyUpdateCommand : Command
     {
-        public new const short Id = 8550;
+        public new const short Id = 30499;
         public int currentCaptainEnergy;
         public int captainEnergyDrain;
         public int maxCaptainEnergy;

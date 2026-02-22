@@ -2,7 +2,7 @@
 {
     public class MemberLeaveCommand : Command
     {
-        public new const short Id = 6434;
+        public new const short Id = -576;
         public LeaveReason reason;
         public int playerId;
 

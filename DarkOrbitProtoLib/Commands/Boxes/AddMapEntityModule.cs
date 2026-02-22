@@ -1,8 +1,8 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Boxes
 {
-    internal class AddMapEntityModule : Command
+    internal class AddMapEntityModule : Command //AddMapEntityCommand
     {
-        public new const short Id = 716;
+        public new const short Id = 29281;
         public string hash;
         public int y;
         public int x;

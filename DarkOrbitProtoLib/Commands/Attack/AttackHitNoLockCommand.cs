@@ -2,7 +2,7 @@
 {
     public class AttackHitNoLockCommand : Command   //1165
     {
-        public new const short Id = 14773;
+        public new const short Id = -100;
         public AttackTypeModule attackType;
         public int attackerId;  //name_161
         public int victimId;  //var_1766

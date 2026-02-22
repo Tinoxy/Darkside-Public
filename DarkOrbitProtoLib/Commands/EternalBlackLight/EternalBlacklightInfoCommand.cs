@@ -2,7 +2,7 @@
 {
     public class EternalBlacklightInfoCommand : Command //EternalBlacklightInfoCommand
     {
-        public new const short Id = 3806;
+        public new const short Id = 22305;
         public EternalBlacklightCpuInfoCommand cpuInfoCommand;  //var_2868
         public EternalBlacklightBoosterInfoCommand boosterInfoCommand;  //var_3930
         public EternalBlacklightWaveInfoCommand waveInfoCommand;    //var_5719

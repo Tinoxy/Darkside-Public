@@ -2,7 +2,7 @@
 {
     public class InvitationInitializationCommand : Command   //InvitationInitalizationCommand
     {
-        public new const short Id = 13610;
+        public new const short Id = -14564;
         public string inviterUsername; //var_5515
         public int candidateId;  //var_1058
         public string candidateUsername;  //name_22

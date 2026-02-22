@@ -2,7 +2,7 @@
 {
     public class AttackTypeModule : Command
     {
-        public new const short Id = 28;
+        public new const short Id = 27;
         public AttackType attackType;
 
         public override void Read(ByteArray reader)

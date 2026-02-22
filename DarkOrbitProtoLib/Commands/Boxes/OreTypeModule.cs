@@ -2,7 +2,7 @@
 {
     public class OreTypeModule : Command    //OreTypeModule
     {
-        public new const short Id = 24337;
+        public new const short Id = 1922;
         public short type;  //name_102
 
         public OreTypeModule(short type)

@@ -2,7 +2,7 @@
 {
     public class TrackIntVariableModule : TrackVariableModule  //513, TrackIntVar
     {
-        public new const short Id = -13931;
+        public new const short Id = 1486;
         public int value;
 
         public TrackIntVariableModule(string key, int value = 0) : base(key)

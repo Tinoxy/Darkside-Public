@@ -2,7 +2,7 @@
 {
     public class ShipIconModule : PlayerAttributeModule   //472
     {
-        public new const short Id = 29221;
+        public new const short Id = 9288;
         public int shipIcon;
 
         public override void Read(ByteArray reader)
@@ -17,7 +17,6 @@
         {
             this.@byte.WriteShort((short)Id);
             this.@byte.WriteShort((short)0);
-            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
             this.@byte.WriteShort((short)this.shipIcon);
             return this.@byte.ToArray();
         }

@@ -2,7 +2,7 @@
 {
     public class DispatchGetRetrieverListRequest : Command  //DispatchGetRetrieverListRequest
     {
-        public new const short Id = -31874;
+        public new const short Id = 4656;
         public short statusType;
 
         public DispatchGetRetrieverListRequest(short type)

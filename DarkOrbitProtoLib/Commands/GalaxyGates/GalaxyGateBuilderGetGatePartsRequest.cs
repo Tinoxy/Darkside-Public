@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderGetGatePartsRequest : Command   //828
     {
-        public new const short Id = -554;
+        public new const short Id = -19326;
         public int gateId;
 
         public const byte ALPHA = 1;

@@ -2,7 +2,7 @@
 {
     public class MenuActionRequest : Command    //MenuActionRequest
     {
-        public new const short Id = 3279;
+        public new const short Id = 32474;
         public short sourceType;     //var_2573
         public string menuItemId;   //var_389
         public short actionType;   //3171

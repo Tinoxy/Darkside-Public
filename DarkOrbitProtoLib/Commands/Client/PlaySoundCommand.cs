@@ -2,7 +2,7 @@
 {
     public class PlaySoundCommand : Command //class_1366
     {
-        public new const short Id = -19018;
+        public new const short Id = -11763;
         public SoundType status;
 
         public override void Read(ByteArray reader)

@@ -2,7 +2,7 @@
 {
     public class MapAssetActivationRequest : Command
     {
-        public new const short Id = 30282;
+        public new const short Id = 4302;
         public int mapAssetId;
 
         public MapAssetActivationRequest(int mapAssetId)

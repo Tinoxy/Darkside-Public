@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Pet
 {
-    public class PetGearLocatorUpdateCommand : Command  //class_1579
+    public class PetGearLocatorUpdateCommand : Command  //PetGearLocatorUpdate
     {
         public new const short Id = 237;
         public int x;

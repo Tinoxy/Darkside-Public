@@ -2,7 +2,7 @@
 {
     public class EternalBlacklightBoosterInfoCommand : Command //BoosterInfoCommand
     {
-        public new const short Id = 31280;
+        public new const short Id = -22316;
         public EternalBlacklightBoosterCommand boosterOption2;   //var_2906
         public EternalBlacklightBoosterCommand boosterOption1; //var_2742
         public List<EternalBlacklightBoosterCommand> currentBoosters; //var_4165

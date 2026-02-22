@@ -1,8 +1,8 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Group
 {
-    public class GroupMemberInitalizationCommand : Command
+    public class GroupMemberInitalizationCommand : Command //GroupMemberInitializationCommand
     {
-        public new const short Id = 3178;
+        public new const short Id = -27889;
         public HealthModule health;
         public bool cloaked;
         public bool active;

@@ -2,7 +2,7 @@
 {
     public class GroupCloseCommand : Command    //GroupCloseCommand
     {
-        public new const short Id = -6587;
+        public new const short Id = 16088;
 
         public override void Read(ByteArray reader)
         {

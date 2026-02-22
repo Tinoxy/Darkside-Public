@@ -2,7 +2,7 @@
 {
     public class EternalBlacklightCpuInfoCommand : Command //EBGCpuInfoCommand
     {
-        public new const short Id = -21141;
+        public new const short Id = -3953;
         public int cpuCount;
 
         public override void Read(ByteArray reader)

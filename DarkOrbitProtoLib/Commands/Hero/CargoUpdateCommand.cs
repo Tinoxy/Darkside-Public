@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Hero
 {
-    public class CargoUpdateCommand : Command   //1824
+    public class CargoUpdateCommand : Command   //AttributeOreCountUpdateCommand
     {
         public new const short Id = 106;
         public List<OreCountModule> cargoUpdates;

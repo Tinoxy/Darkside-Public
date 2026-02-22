@@ -2,7 +2,7 @@
 {
     public class ClanModule : PlayerAttributeModule   //1094
     {
-        public new const short Id = -959;
+        public new const short Id = 18051;
         public int clanId;
         public string clanTag;
 

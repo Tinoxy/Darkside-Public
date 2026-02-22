@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Hero
 {
-    public class ShieldUpdateCommand : Command  //class_1716
+    public class ShieldUpdateCommand : Command  //AttributeShieldUpdateCommand
     {
         public new const short Id = 248;
         public int shield;  //var_4411

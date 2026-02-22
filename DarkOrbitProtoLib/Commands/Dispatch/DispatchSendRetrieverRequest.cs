@@ -2,7 +2,7 @@
 {
     public class DispatchSendRetrieverRequest : Command  //DispatchSendRetrieverRequest
     {
-        public new const short Id = 10496;
+        public new const short Id = 30664;
         public int dispatcherId;
 
         public DispatchSendRetrieverRequest(int dispatcherId)

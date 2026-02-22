@@ -2,7 +2,7 @@
 {
     public class DispatchModule : Command    //DispatchModule
     {
-        public new const short Id = -8040;
+        public new const short Id = -31536;
         public int slotId;
         public double duration;
         public int id;

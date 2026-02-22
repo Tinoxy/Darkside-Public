@@ -2,7 +2,7 @@
 {
     public class ShopItemLevelDataCommand : Command
     {
-        public new const short Id = 6511;
+        public new const short Id = -18599;
         public int isPaymentItem;
         public int price;
         public int isElite;

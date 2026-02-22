@@ -2,7 +2,7 @@
 {
     public class DailyLoginClaimTodayRequest : Command
     {
-        public new const short Id = -10319;
+        public new const short Id = 13023;
 
         public override void Read(ByteArray reader)
         {

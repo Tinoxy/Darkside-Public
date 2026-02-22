@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderBonusGGRewardModule : Command  //2200
     {
-        public new const short Id = -11063;
+        public new const short Id = -16507;
         public bool claimed;
         public int amount;
         public int countdown;

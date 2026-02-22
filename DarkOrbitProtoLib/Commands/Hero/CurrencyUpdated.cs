@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Hero
 {
-    public class CurrencyUpdated : Command  //1931
+    public class CurrencyUpdated : Command  //AttributeCreditsUpdateCommand
     {
         public new const short Id = 9;
         public int credits;

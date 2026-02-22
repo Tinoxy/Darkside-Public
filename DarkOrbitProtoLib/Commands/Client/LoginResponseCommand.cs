@@ -1,8 +1,8 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Client
 {
-    public class LoginResponseCommand : Command
+    public class LoginResponseCommand : Command //LoginResponse
     {
-        public new const short Id = -30050;
+        public new const short Id = 19206;
         public int status;
 
         public override void Read(ByteArray reader)

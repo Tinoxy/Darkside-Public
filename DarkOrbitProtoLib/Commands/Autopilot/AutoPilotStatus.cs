@@ -2,7 +2,7 @@
 {
     public class AutoPilotStatus : Command
     {
-        public new const short Id = -5070
+        public new const short Id = -31192
             ;
         public Auto_Pilot_Status status;
 

@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Pet
 {
-    public class PetGearActivateRequest : Command  //1156
+    public class PetGearActivateRequest : Command  //PetGearActivationRequest
     {
         public new const short Id = 154;
         public PetGearModule petGear;   //789
