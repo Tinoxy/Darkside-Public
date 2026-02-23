@@ -2,7 +2,7 @@
 {
     public class DispatchSlotInfoCommand : Command   //DispatchSlotInfoCommand
     {
-        public new const short Id = 19380;
+        public new const short Id = 8936;
         public int availableSlotCount;
         public int currentMaxSlotCount;
 

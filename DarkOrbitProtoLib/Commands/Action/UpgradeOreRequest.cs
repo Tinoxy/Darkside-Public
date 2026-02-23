@@ -2,7 +2,7 @@
 
 namespace DarksideApi.DarkOrbit.Commands.Action
 {
-    public class UpgradeOreRequest : Command    //313
+    public class UpgradeOreRequest : Command    //LabRefinementRequest
     {
         public new const short Id = 132;    //var_847
         public OreCountModule cargoUpdate;

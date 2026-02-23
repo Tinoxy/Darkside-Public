@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Pet
 {
-    public class PetLevelUpCommand : Command    //1053
+    public class PetLevelUpCommand : Command    //PetLevelUpdateCommand
     {
         public new const short Id = 160;
         public int level = 0;   //var_5005

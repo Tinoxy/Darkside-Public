@@ -2,7 +2,7 @@
 {
     public class DispatchGetRetrieverListCommand : Command    //DispatchGetRetrieverListCommand
     {
-        public new const short Id = 29889;
+        public new const short Id = 5871;
         public List<DispatchModule> dispatchers;
         public StatusType statusType;
 

@@ -2,7 +2,7 @@
 {
     public class PayloadEscortKeyInfoCommand : Command
     {
-        public new const short Id = 13385;
+        public new const short Id = 28769;
         public int keyCount;
 
         public override void Read(ByteArray reader)

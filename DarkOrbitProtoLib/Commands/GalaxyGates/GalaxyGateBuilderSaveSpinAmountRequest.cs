@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderSaveSpinAmountRequest : Command //828
     {
-        public new const short Id = -31837;
+        public new const short Id = 29446;
         public byte spinAmount;
 
         public GalaxyGateBuilderSaveSpinAmountRequest(byte spinAmount)

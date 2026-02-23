@@ -2,7 +2,7 @@
 {
     public class ExpeditionActivateShipRequest : Command
     {
-        public new const short Id = 18594;
+        public new const short Id = -24707;
         public long hangarId;
 
         public ExpeditionActivateShipRequest(long hangarId)

@@ -5,7 +5,7 @@ namespace DarksideApi.DarkOrbit.Commands.Expedition
 {
     public class ExpeditionSelectShipCommand : Command
     {
-        public new const short Id = -21584;
+        public new const short Id = 15182;
         public bool result;
         public BaseStackCommand stack;
 

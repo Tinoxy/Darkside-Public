@@ -2,7 +2,7 @@
 {
     public class ReloginCommand : Command //class_1498, ReloginCommand
     {
-        public new const short Id = -23212;
+        public new const short Id = -17430;
         public int mapId;
         public int delayInMs;
 

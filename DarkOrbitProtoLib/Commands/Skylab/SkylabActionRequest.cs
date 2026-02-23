@@ -2,7 +2,7 @@
 {
     public class SkylabActionRequest : Command
     {
-        public new const short Id = 22126;
+        public new const short Id = -20176;
         public int countXenomit;
         public string subaction;
         public int countSeprom;

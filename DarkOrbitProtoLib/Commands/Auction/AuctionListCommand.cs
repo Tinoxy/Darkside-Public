@@ -2,7 +2,7 @@
 {
     public class AuctionListCommand : Command
     {
-        public new const short Id = 10916;
+        public new const short Id = 22424;
         public List<AuctionHistoryCommand> historyList;
         public List<AuctionDataCommand> auctionList;
         public int hourSubSec;

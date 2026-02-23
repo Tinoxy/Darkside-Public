@@ -2,7 +2,7 @@
 {
     public class OreInitCommand : Command
     {
-        public new const short Id = 147;
+        public new const short Id = 147; //AddOreCommand
         private readonly AddMapEntityModule box;
         private readonly OreTypeModule typeModule;
         public int X => this.box.x;

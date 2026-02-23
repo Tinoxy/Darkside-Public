@@ -2,7 +2,7 @@
 {
     public class MessageKeyListWildcardModule : Command //MessageKeyListWildcardModule 567
     {
-        public new const short Id = -32106;
+        public new const short Id = -1992;
         public string baseKey;
         public LoginResponseCommand baseKeyType;
         public List<MessageWildcardReplacementModule> wildcardReplacements;

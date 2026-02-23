@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderInfoRequest : Command   //GGBuilderInfoRequest
     {
-        public new const short Id = -1316;
+        public new const short Id = 22388;
 
         public override void Read(ByteArray reader)
         {

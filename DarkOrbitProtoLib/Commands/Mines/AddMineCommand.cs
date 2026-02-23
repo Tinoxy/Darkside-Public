@@ -4,7 +4,7 @@ namespace DarksideApi.DarkOrbit.Commands.Mines
 {
     public class AddMineCommand : Command  //AddMineCommand
     {
-        public new const short Id = -28080;
+        public new const short Id = 28996;
         private readonly AddMapEntityModule box;
         public int X => this.box!.x;
         public int Y => this.box!.y;

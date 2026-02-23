@@ -2,7 +2,7 @@
 {
     public class EternalBlacklightBoosterCommand : Command    //class_1871
     {
-        public new const short Id = 19480;
+        public new const short Id = -14035;
         public BoosterType boosterType; //var_4663
         public int value;    //value
 
@@ -19,7 +19,7 @@
         public override void Read(ByteArray reader)
         {
             this.value = reader.ReadInt();
-            this.value = this.value >>> 16 % 32 | this.value << 32 - 16 % 32;
+            this.value = this.value >>> 16 | this.value << 16;
             this.boosterType = (BoosterType)reader.ReadShort();
         }
 

@@ -2,7 +2,7 @@
 {
     public class MenuItemTimerCommand : Command
     {
-        public new const short Id = -28914;
+        public new const short Id = 8670;
         public double maxTime;
         public double time;
         public LoginResponseCommand timerState;

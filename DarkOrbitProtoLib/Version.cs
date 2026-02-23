@@ -2,6 +2,6 @@
 {
     public class Version
     {
-        public const string GameVersion = "e1e7ddd243f0f876424afcf3256c9049";   //69.180
+        public const string GameVersion = "b736c845edaee25412b7c77bec2e643f";   //69.180
     }
 }

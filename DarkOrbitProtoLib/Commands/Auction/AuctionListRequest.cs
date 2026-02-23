@@ -2,7 +2,7 @@
 {
     public class AuctionListRequest : Command
     {
-        public new const short Id = 31981;
+        public new const short Id = -20149;
         public string auctionType;
 
         public AuctionListRequest(string auctionType)

@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Loot
 {
-    public class LootModule : Command  //690
+    public class LootModule : Command  //690 
     {
         public new const short Id = 2016;
         public string lootId;

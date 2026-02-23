@@ -2,7 +2,7 @@
 {
     public class MinimapStrategyModule : Command
     {
-        public new const short Id = 31697;
+        public new const short Id = 7010;
         public int minimapStrategy;
 
         public override void Read(ByteArray reader)

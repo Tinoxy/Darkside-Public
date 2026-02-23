@@ -2,7 +2,7 @@
 {
     public class ExpeditionShowUiCommand : Command
     {
-        public new const short Id = -303;
+        public new const short Id = -22785;
         public string param0;
         public string param1;
         public UIType type;

@@ -2,7 +2,7 @@
 {
     public class GroupMemberUpdateCommand : Command //GroupMemberUpdateCommand
     {
-        public new const short Id = 23732;
+        public new const short Id = -17087;
         public List<PlayerAttributeModule> updates;
         public int playerId;
 

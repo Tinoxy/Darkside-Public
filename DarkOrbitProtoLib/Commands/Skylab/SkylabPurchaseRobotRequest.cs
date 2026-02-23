@@ -2,7 +2,7 @@
 {
     public class SkylabPurchaseRobotRequest : Command
     {
-        public new const short Id = -25632;
+        public new const short Id = 30977;
         public int robotType;
         public string construction;
 

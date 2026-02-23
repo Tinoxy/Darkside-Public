@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Attack
 {
-    public class AttackAbordRequest : Command   //266
+    public class AttackAbordRequest : Command   //AttackAbortLaserRequest
     {
         public new const short Id = 25;
 

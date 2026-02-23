@@ -2,7 +2,7 @@
 {
     public class TrackVariableRequest : Command
     {
-        public new const short Id = -6239;
+        public new const short Id = 10253;
         public List<TrackVariableModule> data;
 
         public TrackVariableRequest(List<TrackVariableModule> data)

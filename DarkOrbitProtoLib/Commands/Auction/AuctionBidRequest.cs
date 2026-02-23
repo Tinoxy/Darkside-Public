@@ -2,7 +2,7 @@
 {
     public class AuctionBidRequest : Command
     {
-        public new const short Id = 11690;
+        public new const short Id = -23475;
         public string lootId;
         public long price;
         public string type;

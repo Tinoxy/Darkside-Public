@@ -5,7 +5,7 @@ namespace DarksideApi.DarkOrbit.Commands.Map
 {
     public class AssetCreateCommand : Command //AssetCreateCommand
     {
-        public new const short Id = -27112;
+        public new const short Id = 21957;
         public int expansionStage;  //var_2718
         public bool showBubble;   //var_3800
         public ClanRelationModule clanRelation; //name_122

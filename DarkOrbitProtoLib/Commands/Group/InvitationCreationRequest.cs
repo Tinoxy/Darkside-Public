@@ -2,7 +2,7 @@
 {
     public class InvitationCreationRequest : Command   //InvitationCreationRequest
     {
-        public new const short Id = 1018;
+        public new const short Id = -23991;
         public string username; //name
 
         public InvitationCreationRequest(string username)

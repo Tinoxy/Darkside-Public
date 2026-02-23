@@ -2,7 +2,7 @@
 {
     public class AddBoxCommand : Command
     {
-        public new const short Id = 27643;
+        public new const short Id = -18701;
         private readonly AddMapEntityModule box;
         public string Hash => this.box.hash;
         public string type;

@@ -1,8 +1,8 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Client
 {
-    public class StayinAliveCommand : Command
+    public class StayinAliveCommand : Command //StayinAlive
     {
-        public new const short Id = -25136;
+        public new const short Id = -3160;
 
         public override void Read(ByteArray reader)
         {

@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderSetupGateRequest : Command  //GGSetupGateRequest
     {
-        public new const short Id = -26070;
+        public new const short Id = 25136;
         public byte gateId;
 
         public GalaxyGateBuilderSetupGateRequest(byte gateId)

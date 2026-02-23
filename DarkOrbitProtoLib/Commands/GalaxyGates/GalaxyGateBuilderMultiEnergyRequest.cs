@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderMultiEnergyRequest : Command   //GGBuilderMultiEnegeryRequest
     {
-        public new const short Id = 6588;
+        public new const short Id = -14674;
         public byte gateId;
         public byte spinAmount; //var_5912
         public bool useMultiplier;

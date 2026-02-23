@@ -1,6 +1,6 @@
 ﻿namespace DarksideApi.DarkOrbit.Commands.Hero
 {
-    public class MoveUpdateCommand : Command    //1175
+    public class MoveUpdateCommand : Command    //HeroMoveCommand
     {
         public new const short Id = 29;
         public int x;

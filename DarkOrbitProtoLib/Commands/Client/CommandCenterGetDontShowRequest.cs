@@ -2,7 +2,7 @@
 {
     public class CommandCenterGetDontShowRequest : Command   //1020
     {
-        public new const short Id = 4934;
+        public new const short Id = -1279;
 
         public override void Read(ByteArray reader)
         {

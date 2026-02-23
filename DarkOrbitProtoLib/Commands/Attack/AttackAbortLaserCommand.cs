@@ -2,7 +2,7 @@
 {
     public class AttackAbortLaserCommand : Command   //1166
     {
-        public new const short Id = -17421;
+        public new const short Id = -9214;
         public int userId;  //uid
 
         public override void Read(ByteArray reader)

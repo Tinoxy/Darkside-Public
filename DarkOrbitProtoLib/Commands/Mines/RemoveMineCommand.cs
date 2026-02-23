@@ -2,7 +2,7 @@
 {
     public class RemoveMineCommand : Command    //RemoveMineCommand
     {
-        public new const short Id = -11369;
+        public new const short Id = -932;
         public string hash;
 
         public RemoveMineCommand()

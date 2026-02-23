@@ -2,9 +2,9 @@
 
 namespace DarksideApi.DarkOrbit.Commands.Mines
 {
-    public class FireworkInitCommand : Command  //1412 NOT USED
+    public class FireworkInitCommand : Command  //1412 NOT USED //AddFireworkBoxCommand
     {
-        public new const short Id = -14402;
+        public new const short Id = 5613;
         private readonly AddMapEntityModule box;
         public string Hash => this.box.hash!;
         public int X => this.box.x!;

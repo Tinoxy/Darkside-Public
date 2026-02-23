@@ -2,7 +2,7 @@
 {
     public class AuctionHistoryCommand : Command
     {
-        public new const short Id = -7262;
+        public new const short Id = 1313;
         public string type;
         public string winnerName;
         public string lootId;

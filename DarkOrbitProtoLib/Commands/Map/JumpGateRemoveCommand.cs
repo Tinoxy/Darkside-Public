@@ -2,7 +2,7 @@
 {
     public class JumpGateRemoveCommand : Command    //JumpGateRemove
     {
-        public new const short Id = 8248;
+        public new const short Id = 32164;
         public int gateId;
 
         public override void Read(ByteArray reader)

@@ -2,7 +2,7 @@
 {
     public class ShopLabelPrompt : Command
     {
-        public new const short Id = 21688;
+        public new const short Id = 29682;
         public string category = string.Empty;
         public ShopLabelPrompt.PromptType promptType;
 

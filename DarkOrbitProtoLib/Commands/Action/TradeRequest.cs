@@ -10,6 +10,7 @@
 
         public override void Read(ByteArray reader)
         {
+            throw new NotImplementedException();
         }
 
         public override byte[] Write()

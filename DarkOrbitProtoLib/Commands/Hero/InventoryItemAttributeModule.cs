@@ -2,7 +2,7 @@
 {
     public class InventoryItemAttributeModule : Command   //class_2025
     {
-        public new const short Id = -17719;
+        public new const short Id = -11029;
         public string value;
         public InventoryItemAttributeKey key;
 

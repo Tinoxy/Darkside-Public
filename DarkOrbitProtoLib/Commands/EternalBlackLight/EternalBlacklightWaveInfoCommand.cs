@@ -2,7 +2,7 @@
 {
     public class EternalBlacklightWaveInfoCommand : Command    //class_911
     {
-        public new const short Id = 5667;
+        public new const short Id = 4441;
         public int furthestWave;
         public int currentWave; //name_26
 

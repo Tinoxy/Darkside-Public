@@ -2,7 +2,7 @@
 {
     public class PlayerAttributeModule : Command    //471
     {
-        public new const short Id = -20466;
+        public new const short Id = 31689;
 
         public PlayerAttributeModule()
         {

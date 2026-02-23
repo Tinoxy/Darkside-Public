@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderItemModule : Command  //GalaxyGateBuilderItemModule
     {
-        public new const short Id = 1344;
+        public new const short Id = -7254;
         public double date;
         public int type;
 

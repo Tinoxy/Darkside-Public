@@ -2,7 +2,7 @@
 {
     public class SlotBarInitializationCommand : Command //2310
     {
-        public new const short Id = -18116;
+        public new const short Id = 24694;
         public string slotBarId;
         public string slotBarOrder;
         public string slotBarPosition;

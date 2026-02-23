@@ -2,7 +2,7 @@
 {
     public class MenuItemInitializationCommand : Command  //2253
     {
-        public new const short Id = -4114;
+        public new const short Id = 9903;
         public MenuItemTimerCommand timer;
         public LoginResponseCommand cooldownGroup;
         public MenuItemStatusCommand status;

@@ -2,7 +2,7 @@
 {
     public class GalaxyGateBuilderMultiGateProgressModule : Command //GalaxyGateMultiGateProgressModule
     {
-        public new const short Id = 8128;
+        public new const short Id = -2654;
         public int current;
         public string name;
         public int total;

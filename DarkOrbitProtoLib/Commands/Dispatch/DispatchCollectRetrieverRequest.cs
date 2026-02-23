@@ -2,7 +2,7 @@
 {
     public class DispatchCollectRetrieverRequest : Command  //DispatchCollectRetrieverRequest
     {
-        public new const short Id = -7821;
+        public new const short Id = -63;
         public short slotId;
 
         public DispatchCollectRetrieverRequest(short slotId)

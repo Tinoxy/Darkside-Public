@@ -2,7 +2,7 @@
 {
     public class ShopItemBuyRequest : Command
     {
-        public new const short Id = -1634;
+        public new const short Id = 4216;
         public string lootId;
         public string category;
         public string buyCategory;

@@ -2,7 +2,7 @@
 {
     public class AssetInformationModule : Command
     {
-        public new const short Id = -17949;
+        public new const short Id = 3430;
 
         public override void Read(ByteArray reader)
         {

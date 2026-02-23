@@ -2,7 +2,7 @@
 {
     public class InvitationAcceptRequest : Command //InvitationAcceptRequest
     {
-        public new const short Id = -21862;
+        public new const short Id = -1102;
         public int senderUserId;    //var_2017
 
         public InvitationAcceptRequest(int senderUserId)

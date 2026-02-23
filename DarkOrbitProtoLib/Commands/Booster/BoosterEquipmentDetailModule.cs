@@ -2,7 +2,7 @@
 {
     public class BoosterEquipmentDetailModule : BoosterDetailModule
     {
-        public new const short Id = 24780;
+        public new const short Id = 31601;
         public int amount;
 
         public BoosterEquipmentDetailModule()
@@ -28,9 +28,7 @@
         {
             this.@byte.WriteShort((short)Id);
             this.@byte.WriteShort((short)0);
-            // TODO: konnte nicht automatisch konvertieren: base.Read(reader);
             this.@byte.WriteInt(this.amount >>> 5 | this.amount << 27);
-            // TODO: konnte nicht automatisch konvertieren: this.amount = this.amount >>> 5 | this.amount << 27;
             return this.@byte.ToArray();
         }
     }
